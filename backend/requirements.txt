@@ -1,0 +1,24 @@
+# Framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+alembic
+asyncpg
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]  
+python-multipart 
+
+# Audio
+mutagen 
+
+# Config
+pydantic-settings
+
+# Dev
+pytest
+pytest-asyncio
+httpx
